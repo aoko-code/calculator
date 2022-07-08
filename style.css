@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;    
+}
+a:hover{
+    background-color: #b08401;
+}
+.container{
+    padding: 1rem;
+    margin: 0.5rem;
+}
+.calc-container{
+    padding: 3rem;
+    background-color: #b08401;
+    margin: 2rem;
+    border-radius: 10%;
+    display: grid;
+}
+.calc-row{
+    background-color: aqua;
+    border: black 1px  solid;
+    padding: 1rem;
+    align-items: center;
+    display: grid;
+}
+.calc-col{
+    background-color: rgb(63, 83, 83);
+    border: black 1px  solid;
+    padding: 1rem;
+    align-items: center;
+}
